@@ -14,6 +14,10 @@
 - [x] 10:00 - Push repo và kiểm tra link nộp
 
 ## Ghi chú thêm
-- Khó khăn gặp phải:
-- Cách em xử lý:
+- Khó khăn gặp phải: Không có khó khăn đáng kể trong quá trình làm bài, mọi bước thực hiện suôn sẻ.
+- Cách em xử lý: Em làm theo hướng dẫn bài lab, kiểm tra kỹ các nội dung CIA mapping và threat analysis trước khi ghi vào report.
 - Điều em học được từ bài lab:
+  - Nhận diện các assets cần bảo vệ trong một hệ thống thông tin đơn giản.
+  - Phân biệt rõ Confidentiality, Integrity và Availability trong mô hình CIA.
+  - Xác định threat và vulnerability, rồi đề xuất mitigation phù hợp.
+  - Sử dụng GitHub ở mức cơ bản để nhận bài, chỉnh sửa bài làm và nộp link repo.
