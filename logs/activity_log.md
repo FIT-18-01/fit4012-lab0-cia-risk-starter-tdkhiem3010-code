@@ -2,7 +2,7 @@
 
 Điền ngắn gọn quá trình làm bài. Có thể thêm hoặc bớt dòng.
 
-- [ ] 09:00 - Nhận starter repo / accept assignment / fork repo
+- [x] 09:00 - Nhận starter repo / accept assignment / fork repo
 - [ ] 09:05 - Clone repo về máy
 - [ ] 09:10 - Đọc đề bài và xác định assets
 - [ ] 09:20 - Hoàn thành CIA mapping

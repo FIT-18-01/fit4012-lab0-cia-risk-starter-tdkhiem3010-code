@@ -15,18 +15,19 @@
 
 ### 3. Kết quả chính
 **Assets:**
-- 
-- 
+- Bảng điểm / dữ liệu điểm của sinh viên
+- Tài khoản đăng nhập giảng viên và sinh viên
+- Dữ liệu cá nhân sinh viên (MSSV, họ tên)
 
 **CIA mapping:**
-- Sự cố A -> 
-- Sự cố B -> 
-- Sự cố C -> 
+- Sự cố A -> Availability
+- Sự cố B -> Integrity
+- Sự cố C -> Confidentiality
 
 **Phân tích sự cố B:**
-- Threat: 
-- Vulnerability: 
-- Mitigation: 
+- Threat: Tài khoản giảng viên bị xâm nhập hoặc người có quyền ghi điểm (giảng viên/insider) sửa điểm trái phép.
+- Vulnerability: Hệ thống không kiểm tra chặt chẽ vai trò và quyền hạn khi cho phép sửa điểm, thiếu xác thực mạnh và audit log.
+- Mitigation: Chỉ cho phép giảng viên hợp lệ sửa điểm, áp dụng kiểm soát truy cập theo vai trò (RBAC), yêu cầu xác thực mạnh và ghi nhật ký audit.
 
 ### 4. Kết luận ngắn
-(4-6 dòng: em học được gì từ bài lab này, phần nào khó nhất, điều gì cần chú ý khi phân tích một sự cố an toàn thông tin.)
+Qua bài lab này, em học được cách phân biệt rõ Confidentiality, Integrity và Availability trong một hệ thống lưu điểm. Phân tích thận trọng từng sự cố giúp thấy rõ loại rủi ro và phương án giảm thiểu phù hợp. Phần khó nhất là xác định threat và vulnerability sao cho đúng với vai trò giảng viên được phép nhập điểm. Em rút ra rằng cần chú ý kiểm soát quyền truy cập và ghi nhật ký để bảo vệ dữ liệu an toàn hơn.
